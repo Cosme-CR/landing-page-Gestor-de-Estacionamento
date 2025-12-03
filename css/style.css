@@ -7,7 +7,6 @@ header {
     justify-content: space-between;
     padding-top: 15px;
 }
-
 .logo {
     display: flex;
     flex-direction: row;
@@ -22,6 +21,33 @@ header {
     height: 7vh;
     width: auto;
 }
+
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pingo{
+    display: flex;
+    background-color: purple;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.conjunto:hover .pingo{
+    color: #EB0029;
+    opacity: 1;
+}
+
+.conjunto:hover a {
+    color: blue
+  }
+
+
+
+
 
 .navbar {
     display: flex;
