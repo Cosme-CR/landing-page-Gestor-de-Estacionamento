@@ -64,6 +64,9 @@ body {
     font-family: sans-serif;
 }
 
+/*
+   realiza animação quando o cursor é apontado, vira uma "mãozinha"
+*/
 .navbar h3 {
     transition: transform 0.5s ease, color 0.5s ease;
     cursor: pointer;
@@ -89,7 +92,7 @@ body {
     width: 100%;
     background: #4f46e6;
     opacity: 0;
-    animation: fadein 1.2s ease forwards;
+    animation: fadein 1.2s ease forwards; 
 }
 
 @keyframes fadein {
@@ -127,16 +130,23 @@ body {
 
 .texto-sobreposto {
     position: absolute;
-    top: 23%;
-    left: 8%;
+    top: 35%;
+    left: 7%;
     color: #fff;
     text-shadow: 6px 2px 4px #404CCD;
     font-size: 18px;
 }
 
+.texto-sobreposto h1 {
+    position: absolute;
+    left: 13%;
+    top: 240%;
+    font-size: 40px;
+}
+
 .texto-sobreposto h5 {
     position: absolute;
-    top: 400%;
+    top: 600%;
     left: 20%;
     background-color: #404CCD;
     width: 15vw;
@@ -146,6 +156,9 @@ body {
     justify-content: center;
     border-radius: 20px;
 }
+
+/* animação do botão, faz com que o botão pisque e aumente de tamanho quando
+o cursor passa por cima */
 
 @keyframes blink {
     0% {
