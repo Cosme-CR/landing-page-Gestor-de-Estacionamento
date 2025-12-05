@@ -245,15 +245,17 @@ o cursor passa por cima */
 
 
 /* =========== RECURSOS =========== */
+/* personalizar container principal*/
 .recursos {
     display: flex;
     flex-wrap: wrap;
-    gap: 80px;
-    padding: 20px;
-    margin-top: 300px;
-    justify-content: center;
+    gap: 80px; /* espacamento entre os itens*/
+    padding: 20px; /* espaco ao redor do item dentro*/
+    margin-top: 300px; /**/
+    justify-content: center;/* alinhar itens*/
 }
 
+/* Estilo para cada div dentro do container .recursos */
 .recursos div {
     display: flex;
     width: 18vw;
@@ -265,7 +267,7 @@ o cursor passa por cima */
     transition: transform 1s ease;
     text-align: center;
 }
-
+/*aumenta tamnaho quando passa o mouse*/
 .recursos div:hover {
     transform: scale(1.2);
 }
@@ -295,7 +297,7 @@ o cursor passa por cima */
     transform: scale(1.2);
 }
 
-
+/*personaliza o botao do video*/
 .botaovideo {
     display: flex;
     justify-content: center;
@@ -310,7 +312,7 @@ o cursor passa por cima */
     color: #ffff;
     transition: transform 0.5s ease;
 }
-
+/*efeito no botao de video*/
 .botaovideo:hover {
     transform: scale(1.2);
 }
@@ -329,9 +331,28 @@ o cursor passa por cima */
 }
 
 
+
+
+
+/* ========== INFORMAÇÃO ========== */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin-top: 300px;
+}
+
+.info h2 {
+    margin-top: 50px;
+    width: 70vw;
+    color: #767373;
+    text-align: center;
+    line-height: 1.5;
+}
+
 /* ========================================== */
-
-
 
 
 
