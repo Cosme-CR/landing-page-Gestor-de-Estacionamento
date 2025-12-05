@@ -200,34 +200,38 @@ o cursor passa por cima */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 90vw;
-    margin-left: 100px;
-    margin-top: 90px;
-    height: 50vh;
 }
 
 .texto {
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-right: 50px;
-    font-size: 30px;
     font-family: sans-serif;
     align-items: center;
     color: #404CCD;
 }
 
+.texto h1{
+    font-size: 45px;
+    margin: 0px 32px 29px 0px;
+}
+
 .texto h4 {
-    width: 37vw;
     color: #6B6969;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    line-height: 1.3;
+    font-size: 30px;
+    font-weight: lighter;
+    width: 578px;
+    height: 180px;
+    margin: 0px 100px 0px 76px;
+}
+.imgPc{
+    width: 641px;
+    height: 456px;
 }
 
 .barra2 {
     position: absolute;
-    top: 900px;
+    top: 800px;
     bottom: 0;
     left: 0;
     height: 3px;
