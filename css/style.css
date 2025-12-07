@@ -249,7 +249,7 @@ o cursor passa por cima */
 .recursos {
     display: flex;
     flex-wrap: wrap;
-    gap: 80px; /* espacamento entre os itens*/
+    gap: 90px; /* espacamento entre os itens*/
     padding: 20px; /* espaco ao redor do item dentro*/
     margin-top: 300px; /**/
     justify-content: center;/* alinhar itens*/
@@ -258,8 +258,8 @@ o cursor passa por cima */
 /* Estilo para cada div dentro do container .recursos */
 .recursos div {
     display: flex;
-    width: 18vw;
-    height: 25vh;
+    width: 24vw;
+    height: 26vh;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
@@ -283,8 +283,8 @@ o cursor passa por cima */
 
 .recursos2 div {
     display: flex;
-    width: 18vw;
-    height: 25vh;
+    width: 24vw;
+    height: 28vh;
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
@@ -301,11 +301,15 @@ o cursor passa por cima */
 .botaovideo {
     display: flex;
     justify-content: center;
+
     align-items: center;
     background-color: #404CCD;
-    width: 18vw;
-    height: 5vh;
-    margin-left: 770px;
+    width: 22vw;
+    height: 6vh;
+
+    margin: 90px auto 0 auto; /* centraliza horizontalmente */
+    
+
     margin-top: 90px;
     border-radius: 50px;
     font-family: sans-serif;
@@ -320,12 +324,12 @@ o cursor passa por cima */
 
 .barra3 {
     position: absolute;
-    top: 970px;
+    top: 820px;
     bottom: 0;
     left: 0;
-    height: 3px;
+    height: 1px;
     width: 100%;
-    background: #4f46e6;
+    background: #000000;
     opacity: 1;
     margin-top: 1400px;
 }
