@@ -281,6 +281,21 @@ o cursor passa por cima */
     justify-content: center;
 }
 
+.tituloAzul{
+    font-size: 20px;
+    color: #404CCD;
+}
+
+.textoCinza{
+    font-size: 15px;
+    color: #767373;
+    margin: 32px 0px 0px 0px;
+}
+
+.imgMao{
+    margin: 12px 0px 16px 0px;
+}
+
 .recursos2 div {
     display: flex;
     width: 24vw;
@@ -333,9 +348,6 @@ o cursor passa por cima */
     opacity: 1;
     margin-top: 1400px;
 }
-
-
-
 
 
 /* ========== INFORMAÇÃO ========== */
@@ -401,7 +413,81 @@ o cursor passa por cima */
 
 /* ================================ */
 
+/* ======== DEMONSTRAÇÔES ========= */
 
+.demonstracao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+.selecao1 {
+    display: flex;
+    flex-wrap: wrap; /* os itens quebram a linha quando necessário*/
+    gap: 80px;
+    padding: 20px;
+    margin-top: 200px;
+    justify-content: center;  
+}
+
+.selecao1 div {
+    display: flex;
+    width: 18vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 10px #404CCD;
+    transition: transform 1s ease;
+    text-align: center;
+}
+
+.selecao1 div:hover {
+    transform: scale(1.2); /* efeito de ampliação quando o usuário passa o mouse sobre os cards */
+}
+
+.selecao2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 20px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.selecao2 div {
+    display: flex;
+    width: 18vw;
+    height: 25vh;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    transition: transform 1s ease;
+    box-shadow: 10px 10px 10px #404CCD;
+    text-align: center;
+    
+}
+
+.selecao2 div:hover {
+    transform: scale(1.2);
+}
+
+.barra4 {
+    position: absolute;
+    top: 3300px;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #000000;
+    opacity: 1;
+    margin-top: 1300px;
+}
+
+/* ================================ */
 
 /* ================= FOOTER ================= */
 
