@@ -550,12 +550,12 @@ o cursor passa por cima */
     height: 50px;
     font-size: 33px;
     border-radius: 50px;
-    transition: transform 1s ease, rotate 1.2s;
+    transition: transform 1s ease, box-shadow 1.2s ease;
 }
 
 .ladoA h2:hover {
     transform: scale(1.2);
-    rotate: -4deg;
+    box-shadow: 0px 5px 6px #40cd7b;
 }
 
 .ladoB {
@@ -584,18 +584,62 @@ o cursor passa por cima */
     height: 50px;
     font-size: 33px;
     border-radius: 50px;
-    transition: transform 1s ease, rotate 1.2s;
+    transition: transform 1s ease, box-shadow 1.2s ease;
 }
 
 .ladoB h2:hover {
     transform: scale(1.2);
-    rotate: 4deg;
+    box-shadow: 0px 5px 6px #40cd7b;
 }
 
 .ladoB h3 {
     font-size: 27px;
     width: 440px;
     text-align: center;
+}
+
+/* ================================ */
+
+/* =========== CONTATO ============ */
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    font-family: sans-serif;
+}
+
+.contato h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contato h3 {
+    width: 25vw;
+    text-align: center;
+    line-height: 1.5;
+    color: #767373;
+}
+
+.number {
+    display: flex;
+    background-color: #404CCD;
+    width: 15vw;
+    height: 6vh;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 810px;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 1s ease;
+}
+
+.number:hover {
+    transform: scale(1.2);
 }
 
 /* ================================ */
