@@ -489,6 +489,118 @@ o cursor passa por cima */
 
 /* ================================ */
 
+/* ============ PREÇOS ============ */
+.caixa-grande {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.texto-criativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-criativo h1 {
+    width: 450px;
+    margin-top: 19px;
+}
+
+.caixa-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+.ladoA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 486px;
+    height: 655px;
+    box-shadow: 10px 10px 10px #404CCD;
+    border: 1px solid #404CCD;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.ladoA img {
+    margin-top: 60px;
+    width: 130px;
+    height: auto;
+}
+
+.ladoA h3 {
+    font-size: 27px;
+    width: 440px;
+    text-align: center;
+}
+
+.ladoA h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F4F2FC;
+    background-color: #404CCD;
+    width: 223px;
+    height: 50px;
+    font-size: 33px;
+    border-radius: 50px;
+    transition: transform 1s ease, rotate 1.2s;
+}
+
+.ladoA h2:hover {
+    transform: scale(1.2);
+    rotate: -4deg;
+}
+
+.ladoB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 486px;
+    height: 655px;
+    box-shadow: 10px 10px 10px #404CCD;
+    border: 1px solid #404CCD;
+    border-radius: 10px;
+    gap: 50px;
+}
+
+.ladoB img {
+    margin-top: 40px;
+}
+
+.ladoB h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F4F2FC;
+    background-color: #404CCD;
+    width: 223px;
+    height: 50px;
+    font-size: 33px;
+    border-radius: 50px;
+    transition: transform 1s ease, rotate 1.2s;
+}
+
+.ladoB h2:hover {
+    transform: scale(1.2);
+    rotate: 4deg;
+}
+
+.ladoB h3 {
+    font-size: 27px;
+    width: 440px;
+    text-align: center;
+}
+
+/* ================================ */
+
+
 /* ================= FOOTER ================= */
 
 
