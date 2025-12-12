@@ -413,33 +413,34 @@ o cursor passa por cima */
 /* ======== DEMONSTRAÇÔES ========= */
 
 .demonstracao {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-    margin-top: 90px;
+    text-align: center;
+    padding: 60px 0;
 }
+.demonstracao h1{
+    font-size: 50px;
+}
+
+.demonstracao h2{
+    color: #767373;
+}
+
 
 .selecao1 {
     display: flex;
-    flex-wrap: wrap; /* os itens quebram a linha quando necessário*/
+    flex-direction: column;
+    align-items: center;
     gap: 80px;
-    padding: 20px;
-    margin-top: 200px;
+    padding: 40px;
     justify-content: center;  
 }
 
 .selecao1 div {
     display: flex;
-    width: 18vw;
-    height: 25vh;
-    flex-direction: column;
+    width: 50vw;
+    height: 35vh;
     align-items: center;
-    font-family: sans-serif;
     box-shadow: 10px 10px 10px #404CCD;
     transition: transform 1s ease;
-    text-align: center;
 }
 
 .selecao1 div:hover {
@@ -448,23 +449,21 @@ o cursor passa por cima */
 
 .selecao2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 80px;
-    padding: 20px;
-    margin-top: 100px;
+    padding: 40px;
     justify-content: center;
 }
 
 .selecao2 div {
     display: flex;
-    width: 18vw;
-    height: 25vh;
-    flex-direction: column;
+    width: 50vw;
+    height: 35vh;
     align-items: center;
-    font-family: sans-serif;
     transition: transform 1s ease;
     box-shadow: 10px 10px 10px #404CCD;
-    text-align: center;
+    justify-content: center;
     
 }
 
@@ -473,15 +472,10 @@ o cursor passa por cima */
 }
 
 .barra4 {
-    position: absolute;
-    top: 3300px;
-    bottom: 0;
-    left: 0;
-    height: 1px;
+    height: 2px;
+    background: #ccc;
+    margin: 40px 0;
     width: 100%;
-    background: #000000;
-    opacity: 1;
-    margin-top: 1300px;
 }
 
 /* ================================ */
