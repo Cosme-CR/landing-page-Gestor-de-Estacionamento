@@ -107,53 +107,57 @@ body {                              /* estiliza o corpo da pagina */
 /* ================= MAIN ================= */
 
    /* ============== HOME ============== */
+
+/* Contêiner da imagem, usado para permitir texto sobreposto */
+
 .image-container {
-    position: relative;
-    display: inline-block;
-    font-family: sans-serif;
-    margin-top: 80px;
+    osition: relative;
+    width: 100%;
 }
 
+/* Estilização da imagem: ocupa toda a largura e corta o excesso */
 .image-container img {
     display: block;
-    max-width: 100%;
-    height: auto;
-    width: 100vw;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover; 
 }
 
+/* Bloco de texto que fica por cima da imagem */
 .texto-sobreposto {
     position: absolute;
     top: 35%;
     color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
     text-shadow: 6px 2px 4px #404CCD;
-    font-size: 20px;
+    white-space: nowrap;
 }
 
+
+/* Estilo do título sobre a imagem */
 .texto-sobreposto h1 {
-    position: absolute;
-    /* left: 20px; */
-    /* top: 240%; */
-    margin: 16px 0px 16px 151px;
+    margin-bottom: 10px;
     font-size: 50px;
 
 }
 
 .texto-sobreposto h5 {
-    position: absolute;
-    top: 100px;
-    margin: 16px 16px 0px 200px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    display: inline-block;
     background-color: #404CCD;
     width: 347px;
     height: 33px;
-    display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
+    border-radius: 20px
 }
 
 .texto-sobreposto h3 {
-    margin: 0px 0px 0px 99px;
-    font-size: 25px;
+    margin: 20px auto;
+    font-size: 22px;
 }
 
 /* animação do botão, faz com que o botão pisque e aumente de tamanho quando
@@ -173,12 +177,13 @@ o cursor passa por cima */
     }
 }
 
+/* aplica  o efeito d */
 .botao {
     animation: blink 2.7s linear infinite;
     transition: transform 1s ease;
     cursor: pointer;
 }
-
+/* Aumenta o tamanho ao passar o mouse */
 .botao:hover {
     transform: scale(1.2);
 }
