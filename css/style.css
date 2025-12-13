@@ -195,7 +195,7 @@ o cursor passa por cima */
 .introducao {               /*classe pai*/
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     padding: 80px 20px;
     flex-wrap: wrap;
@@ -279,7 +279,7 @@ o cursor passa por cima */
 
 .textoCinza{
     font-size: 15px;
-    color: #767373;
+    color: #4b4848;
     margin: 15px 0;
 }
 
