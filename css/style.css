@@ -111,7 +111,8 @@ body {                              /* estiliza o corpo da pagina */
 /* Contêiner da imagem, usado para permitir texto sobreposto */
 
 .image-container {
-    osition: relative;
+    position: relative;
+
     width: 100%;
 }
 
