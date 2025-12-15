@@ -201,15 +201,17 @@ o cursor passa por cima */
     flex-wrap: wrap;
 }
 
-.texto {
+.texto{
     text-align: center;
     flex-direction: column;
     align-items: center;
     max-width: 600px;
-    color: #404CCD;
+
 }
 
 .texto h1{
+
+    color: #404CCD;
     font-size: 45px;
     margin-bottom: 15px;
     white-space: nowrap;
@@ -572,7 +574,7 @@ o cursor passa por cima */
     transition: transform 1s ease, box-shadow 1.2s ease;
 }
 
-.ladoB h1:hover {
+.ladoB h3:hover {
     transform: scale(1.2);
     rotate: 1deg;
 }
@@ -654,7 +656,7 @@ footer div {
 }
 
 footer img {
-    width: 50px;
+    width: 45px;
     height: auto;
 }
 /* ========================================== */
@@ -705,15 +707,15 @@ footer img {
 
     }
 
-    .texto-sobreposto h3{
+    .texto-sobreposto h1{
         font-size: 20px;
         /* margin: -5px 5rem; */
     }
-    .texto-sobreposto h1{
+    .texto-sobreposto h2{
         font-size: 30px;
         /* margin: 8px 7rem; */
     }
-    .texto-sobreposto h5{
+    .texto-sobreposto h3{
         width: 300px;
         height: 36px;
         font-size: 15px;
@@ -723,6 +725,15 @@ footer img {
     /* ========================================== */
 
     /* ========== INTRODUÇÃO ========== */
+
+    .texto h1{
+        font-size: 30px;
+    }
+
+    .texto h2 {
+        font-size: 20px;
+
+    }
 
     .imgPc{
         display: none;
@@ -740,12 +751,12 @@ footer img {
     }
     .ladoA h2, .ladoB h2{
         width: 30vw;
-        height: 4vh;
-        font-size: 13px;
+        height: auto;
+        font-size: 20px;
     }
 
     .ladoA h3, .ladoB h3{
-        width: 55vw;
+        width: 30vw;
         font-size: 25px;
     }
 
@@ -756,12 +767,12 @@ footer img {
 
      /* =========== CONTATO ============ */
     .contato h1 {
-        font-size: 35px;
+        font-size: 20px;
         /* margin-bottom: 50px; */
     }
-    .contato h3{
+    .contato h2{
         width: 60vw;
-        font-size: 20px;
+        font-size: 15px;
     }
     .number{
         font-size: 25px;
@@ -812,17 +823,17 @@ footer img {
         margin-top: 35px;
     }
 
-    .texto-sobreposto h3{
+    .texto-sobreposto h1{
         font-size: 12px;
         /* margin: -5px 5rem; */
         margin: 0;
     }
-    .texto-sobreposto h1{
+    .texto-sobreposto h2{
         font-size: 18px;
         margin: 0;
         /* margin: 8px 7rem; */
     }
-    .texto-sobreposto h5{
+    .texto-sobreposto h3{
         width: 170px;
         height: 25px;
         font-size: 9px;
@@ -842,7 +853,7 @@ footer img {
     .texto h1{
         font-size: 18px;
     }
-    .texto h4{
+    .texto h2{
         font-size: 18px;
     }
     .barra2{
@@ -884,6 +895,15 @@ footer img {
     .titulo h2{
         font-size: 8px;
     }
+    .textoCinza{
+        font-size: 12px;
+    }
+    .tituloAzul{
+        font-size: 16px;
+    }
+    .botaovideo{
+        font-size: 10px;
+    }
     /* ================================ */
     /* ======== DEMONSTRAÇÕES ========= */
     .demonstracao{
@@ -913,14 +933,14 @@ footer img {
         height: 40vh;
         gap: 15px
     }
-    .ladoA h3, .ladoB h3{
+    .ladoA h2, .ladoB h2{
         width: 55vw;
         font-size: 15px;
     }
     .ladoA h1, .ladoB h1{
         font-size: 18px;
     }
-    .ladoA h2, .ladoB h2{
+    .ladoA h3, .ladoB h3{
         width: 30vw;
         height: 4vh;
         font-size: 13px;
@@ -935,7 +955,7 @@ footer img {
         font-size: 15px;
         /* margin-bottom: 50px; */
     }
-    .contato h3{
+    .contato h2{
         width: 60vw;
         font-size: 10px;
     }
