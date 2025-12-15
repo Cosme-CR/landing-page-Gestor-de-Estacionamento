@@ -137,13 +137,13 @@ body {                              /* estiliza o corpo da pagina */
 
 
 /* Estilo do título sobre a imagem */
-.texto-sobreposto h1 {
+.texto-sobreposto h2 {
     margin-bottom: 10px;
     font-size: 50px;
 
 }
 
-.texto-sobreposto h5 {
+.texto-sobreposto h3 {
     margin-top: 15px;
     padding: 10px 20px;
     display: inline-block;
@@ -155,7 +155,7 @@ body {                              /* estiliza o corpo da pagina */
     border-radius: 20px
 }
 
-.texto-sobreposto h3 {
+.texto-sobreposto h1 {
     margin: 20px auto;
     font-size: 22px;
 }
@@ -215,7 +215,7 @@ o cursor passa por cima */
     white-space: nowrap;
 }
 
-.texto h4 {
+.texto h2 {
     color: #6B6969;
     font-size: 30px;
     font-weight: 500;
@@ -516,7 +516,7 @@ o cursor passa por cima */
     height: auto;
 }
 
-.ladoA h3 {
+.ladoA h2 {
     font-size: 27px;
     width: 30vw;
     height: auto;
@@ -525,7 +525,7 @@ o cursor passa por cima */
     color: #767373;
 }
 
-.ladoA h2 {
+.ladoA h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -537,7 +537,7 @@ o cursor passa por cima */
     transition: transform 1s ease, box-shadow 1.2s ease;
 }
 
-.ladoA h2:hover {
+.ladoA h3:hover {
     transform: scale(1.2);
     rotate: -1deg;
 }
@@ -560,7 +560,7 @@ o cursor passa por cima */
     height: auto;
 }
 
-.ladoB h2 {
+.ladoB h3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -572,12 +572,12 @@ o cursor passa por cima */
     transition: transform 1s ease, box-shadow 1.2s ease;
 }
 
-.ladoB h2:hover {
+.ladoB h1:hover {
     transform: scale(1.2);
     rotate: 1deg;
 }
 
-.ladoB h3 {
+.ladoB h2 {
     font-size: 27px;
     width: 30vw;
     height: auto;
@@ -601,7 +601,7 @@ o cursor passa por cima */
     font-size: 40px;
 }
 
-.contato h3 {
+.contato h2 {
     width: 35vw;
     height: auto;
     text-align: center;
