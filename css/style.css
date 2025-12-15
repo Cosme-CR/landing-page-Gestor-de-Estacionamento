@@ -247,7 +247,7 @@ o cursor passa por cima */
     display: flex;
     flex-wrap: wrap;
     gap: 9rem; /* espacamento entre os itens*/
-    padding: 2vw; /* espaco ao redor do item dentro*/
+    padding: 3vw; /* espaco ao redor do item dentro*/
     justify-content: center;/* alinhar itens*/
 }
 
@@ -272,6 +272,7 @@ o cursor passa por cima */
     gap: 9rem; /* espacamento entre os itens*/
     padding: 2vw; /* espaco ao redor do item dentro*/
     justify-content: center;/* alinhar itens*/
+    margin-top: 28px;
 }
 
 .tituloAzul{
