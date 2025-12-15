@@ -39,8 +39,8 @@ body {                              /* estiliza o corpo da pagina */
 }
 
 .logo img {
-    height: 40px;
-    width: auto;
+    width: 40px;
+    
 }
 
 .pingo{                     /* estiliza o ponto roxo acima do "i" de "Gestor Veícular" */
@@ -223,7 +223,7 @@ o cursor passa por cima */
 }
 .imgPc{
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
 }
 
@@ -286,8 +286,6 @@ o cursor passa por cima */
 .imgMao{
     margin: 5px 0;
     width: 5vw;
-    height: auto;
-
 }
 
 .recursos2 div {
@@ -660,87 +658,6 @@ footer img {
     height: auto;
 }
 /* ========================================== */
-
-
-
-/* ======== DEMONSTRAÇÔES ========= */
-.demonstracao {
-
-    text-align: center;
-    padding: 60px 0;
-}
-
-.demonstracao h1 {
-    font-size: 50px;
-    /* margin-bottom: 30px; */
-}
-
-.demonstracao h2 {
-    color: #767373;
-}
-
-
-.selecao1 {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    align-items: center;
-    gap: 80px;
-    padding: 40px;
-    justify-content: center; /*centraliza verticalmente os filho*/
-}
-
-.selecao1 div {
-    display: flex;
-    width: 50vw;
-    height: 35vh;
-    /* flex-direction: column; */
-    align-items: center;
-    box-shadow: 10px 10px 10px #404CCD;
-    transition: transform 1s ease;
-    justify-content: center;
-}
-
-.selecao1 div:hover {
-    transform: scale(1.2);
-}
-
-.selecao2 {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    align-items: center;
-    gap: 80px;
-    padding: 40px;  /* Espaçamento interno do container */
-    justify-content: center;
-}
-
-.selecao2 div {
-    display: flex;
-    width: 50vw;
-    height: 35vh;
-    /* flex-direction: column; */
-    align-items: center;
-    box-shadow: 10px 10px 10px #404CCD;
-    transition: transform 1s ease;
-    justify-content: center;
-    /* text-align: center; */
-}
-
-.selecao2 div:hover {
-    transform: scale(1.2);
-}
-/**/
-.barra4 {
-    height: 2px;
-    background: #ccc;
-    margin: 40px 0;
-    width: 100%;
-}
-
-/* ================================ */
-
-
 /*  */
 @media(max-width: 768px) {
     
@@ -852,4 +769,192 @@ footer img {
         height: 6vh;
     }
 
+
+}
+
+@media(max-width: 480px) {
+    /* ================header=================== */
+    body{
+        /* display: none; */
+    }
+    .header{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 12px;
+        align-items: center;
+        padding: 18px 0;
+        font-family: sans-serif;
+        height: 65px;
+        text-align: center;
+    }
+    .logo{
+        font-size: 12px;
+        padding: 0 1rem;
+
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: none;
+        font-family: sans-serif;
+        font-size: 12px
+    }
+    .texto-sobreposto{
+        margin-top: 35px;
+    }
+
+    .texto-sobreposto h3{
+        font-size: 12px;
+        /* margin: -5px 5rem; */
+        margin: 0;
+    }
+    .texto-sobreposto h1{
+        font-size: 18px;
+        margin: 0;
+        /* margin: 8px 7rem; */
+    }
+    .texto-sobreposto h5{
+        width: 170px;
+        height: 25px;
+        font-size: 9px;
+        margin-top: 0;
+        padding: 8px;
+        /* margin: -69px 6.3rem; */
+    }
+    /* ========================================== */
+    /* ===============INTRODUCAO=============== */
+
+    .imgPc{
+        display: none;
+    }
+    .introducao{
+        padding: 0 8px;
+    }
+    .texto h1{
+        font-size: 18px;
+    }
+    .texto h4{
+        font-size: 18px;
+    }
+    .barra2{
+        margin: 15px 0;
+    }
+
+    /* ===============Recursos=============== */
+
+    .recursos, .recursos2{
+        gap: 3rem;
+    } 
+    .barra3{
+        margin: 15px 0;
+    }
+
+    /* ============================== */
+    /* ========== INFORMAÇÃO ========== */
+    .info h1{
+        font-size: 18px;
+        margin-bottom: 20px;
+        /* margin: 150px 0; */
+    }
+    .info h2{
+        font-size: 15px;
+    }
+
+    /* ============ VIDEOS ============ */
+
+    .video-apresentacao{
+        margin-top: 0;
+    }
+    .titulo{
+        left: 24%;
+    }
+    .titulo h1{
+        font-size: 12px;
+
+    }
+    .titulo h2{
+        font-size: 8px;
+    }
+    /* ================================ */
+    /* ======== DEMONSTRAÇÕES ========= */
+    .demonstracao{
+        padding: 8px;
+    }
+    .demonstracao h1{
+        font-size: 18px;
+    }
+    .demonstracao h2{
+        font-size: 15px;
+    }
+    /* ================================ */
+    /* ============ PREÇOS ============ */
+    .texto-criativo p{
+        font-size: 16px;
+    }
+    .texto-criativo h1{
+        font-size: 12px;
+    }
+    .caixa-media{
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 80px
+    }
+    .ladoA, .ladoB{
+        width: 75vw;
+        height: 40vh;
+        gap: 15px
+    }
+    .ladoA h3, .ladoB h3{
+        width: 55vw;
+        font-size: 15px;
+    }
+    .ladoA h1, .ladoB h1{
+        font-size: 18px;
+    }
+    .ladoA h2, .ladoB h2{
+        width: 30vw;
+        height: 4vh;
+        font-size: 13px;
+    }
+    .ladoA img, .ladoB img{
+        width: 12vw;
+        margin: 20px;
+    }
+    /* ================================ */
+    /* =========== CONTATO ============ */
+    .contato h1 {
+        font-size: 15px;
+        /* margin-bottom: 50px; */
+    }
+    .contato h3{
+        width: 60vw;
+        font-size: 10px;
+    }
+    .number{
+        font-size: 15px;
+        width: 35vw;
+        height: 6vh;
+    }
+    /* ========================================== */
+    /* ================= FOOTER ================= */
+
+    footer{
+        padding: 0;
+    }
+    footer h1{
+        font-size: 11px;
+
+    }
+    footer img{
+        width: 17px;
+    }
 }
