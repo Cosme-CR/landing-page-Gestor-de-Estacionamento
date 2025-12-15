@@ -739,3 +739,117 @@ footer img {
 }
 
 /* ================================ */
+
+
+/*  */
+@media(max-width: 768px) {
+    
+/* ================= HEADER ================= */
+    .header{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        background-color: tomato;
+
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 0;
+        font-family: sans-serif;
+        height: 65px;
+        text-align: center;
+    }
+    .logo{
+        font-size: 12px;
+        padding: 0 1rem;
+
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: none;
+        font-family: sans-serif;
+        font-size: 16px
+
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: none;
+        font-family: sans-serif;
+        font-size: 16px
+
+    }
+
+    .texto-sobreposto h3{
+        font-size: 20px;
+        /* margin: -5px 5rem; */
+    }
+    .texto-sobreposto h1{
+        font-size: 30px;
+        /* margin: 8px 7rem; */
+    }
+    .texto-sobreposto h5{
+        width: 300px;
+        height: 36px;
+        font-size: 15px;
+        /* margin: -50px 8rem; */
+        white-space: nowrap;
+    }
+    /* ========================================== */
+
+    /* ========== INTRODUÇÃO ========== */
+
+    .imgPc{
+        display: none;
+    }
+
+    .caixa-media{
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 80px
+    }
+    .ladoA, .ladoB{
+        width: 75vw;
+        height: 40vh;
+        gap: 15px
+    }
+    .ladoA h2, .ladoB h2{
+        width: 30vw;
+        height: 4vh;
+        font-size: 13px;
+    }
+
+    .ladoA h3, .ladoB h3{
+        width: 55vw;
+        font-size: 25px;
+    }
+
+    .ladoA img, .ladoB img{
+        width: 12vw;
+        margin: 20px;
+    }
+
+     /* =========== CONTATO ============ */
+    .contato h1 {
+        font-size: 35px;
+        /* margin-bottom: 50px; */
+    }
+    .contato h3{
+        width: 60vw;
+        font-size: 20px;
+    }
+    .number{
+        font-size: 25px;
+        width: 35vw;
+        height: 6vh;
+    }
+
+}
